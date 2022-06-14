@@ -1,4 +1,4 @@
-locaList = {
+locaList = { # selector 용 데이터
     "cafe": [
         {
             "name": "카페삼층",
@@ -502,7 +502,7 @@ locaList = {
 }
 
 
-inhaMetroTimetable = {
+inhaMetroTimetable = { # 지하철 시간표 데이터
     "weekday": {
         "up": [
             "00:00",
@@ -983,11 +983,11 @@ inhaMetroTimetable = {
     },
 }
 
-command_list = [
+command_list = [ # 명령어 목록 데이터
     {
         "name": "식당",
         "desc": "인하대 근처 식당을 무작위로 선택해줍니다.",
-    },  # 식당의 경우, 식당 이후 직접 분류를 고를 것인지, 모든 분류중에서 하나를 고를 것인지 선택을 할 수 있게 하자
+    },  
     {"name": "카페", "desc": "인하대 근처 카페를 무작위로 선택해줍니다."},
     {"name": "여가", "desc": "인하대 근처 여가시설을 무작위로 선택해줍니다."},
     {"name": "술집", "desc": "인하대 근처 술집을 무작위로 선택해줍니다."},
